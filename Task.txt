@@ -1,0 +1,19 @@
+Требуется написать консольную программу на C# для генерации сигнатуры указанного файла. Сигнатура генерируется следующим образом: исходный файл делится на блоки заданной длины (кроме последнего блока), для каждого блока вычисляется значение hash-функции SHA256, и вместе с его номером выводится в консоль. 
+
+Программа должна уметь обрабатывать файлы, размер которых превышает объем оперативной памяти, и при этом максимально эффективно использовать вычислительные мощности многопроцессорной системы. При работе с потоками допускается использовать только стандартные классы и библиотеки из .Net (исключая ThreadPool, BackgroundWorker, TPL) 
+
+Ожидается реализация с использованием Thread-ов. Путь до входного файла и размер блока задаются в командной строке. В случае возникновения ошибки во время выполнения программы ее текст и StackTrace необходимо вывести в консоль. 
+
+_
+Je potřeba napsat konzolovou aplikaci v jazyce C# pro generování podpisu určitého souboru. Podpis je vytvořen následujícím způsobem: původní soubor je rozdělen na bloky dané délky (kromě posledního bloku), pro každý blok je vypočtena hodnota hash-funkce SHA256 a společně s jeho číslem je vypsána do konzole.
+
+Aplikace by měla být schopná zpracovávat soubory, jejichž velikost přesahuje velikost operační paměti, a zároveň maximalizovat efektivní využití výpočetních sil vícejádrového systému. Při práci s vlákny je povoleno používat pouze standardní třídy a knihovny z .Net (s výjimkou ThreadPool, BackgroundWorker, TPL).
+
+Očekává se implementace s využitím vláken (Thread). Cesta k vstupnímu souboru a velikost bloku jsou zadány v příkazovém řádku. V případě chyby během provádění programu je třeba vypsat její text a StackTrace do konzole.
+
+_
+It is required to write a console application in C# to generate a signature for a specified file. The signature is generated as follows: the original file is divided into blocks of a specified length (except for the last block), for each block, the value of the SHA256 hash function is computed, and together with its number, it is displayed in the console.
+
+The program should be capable of handling files whose size exceeds the available memory and, at the same time, effectively utilize the computational power of a multi-core system. When working with threads, only standard classes and libraries from .Net are allowed (excluding ThreadPool, BackgroundWorker, TPL).
+
+Implementation using Threads is expected. The path to the input file and the block size are specified in the command line. In case of an error during program execution, its text and StackTrace need to be displayed in the console.
