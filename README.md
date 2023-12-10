@@ -23,3 +23,6 @@ The path to the file is set through the command line. If an error occurs during 
 // ```
 // Replace <file_path> with the path of the file for which the signature needs to be generated.
 // For example: dotnet run "D:\movies\Oldboy.avi"
+```
+
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWsyZTJueXg1bzlsdjJkNzVhejBzbzVqaHp0emluMGptM2p5dHBsbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HdoHu0gSW1x3iKlNBC/giphy.gif)
